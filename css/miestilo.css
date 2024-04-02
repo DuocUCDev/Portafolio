@@ -1,24 +1,31 @@
-.sidebar {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
+body {
     background-color: #f8f9fa;
-    padding-top: 20px;
 }
 
-.sidebar a {
-    padding: 10px 20px;
-    display: block;
-    cursor: pointer;
-}
-
-.sidebar a:hover {
-    background-color: #f1f1f1;
-}
-
-.sidebar a.active {
-    background-color: #4CAF50;
+header, footer {
+    background-color: #343a40;
     color: white;
 }
+
+#projects .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    transition: all 0.2s ease-in-out;
+}
+
+#projects .card:hover {
+    transform: scale(1.05);
+}
+
+.jumbotron {
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255);
+}
+
